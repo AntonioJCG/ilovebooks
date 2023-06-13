@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+    min-height: 100vh;
+    background-image: url(../imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-width: 350px;
+}
+
+.formulario {
+    background-color: rgb(226, 224, 228);
+    opacity: 0.95;
+    width: auto;
+    height: fit-content;
+}
+
+.imgLogo {
+    width: auto;
+    height: auto;
+}
+
+.imgLogo > img {
+    width: 300px;
+    height: auto;
+}
